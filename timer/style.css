@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30pt;
+}
+.timer{
+    display: flex;
+}
+.timer .timer__block{
+    margin-left: 20px;
+}

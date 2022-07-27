@@ -1,2 +1,2 @@
-# projects-js
-My study projects
+# js-projects
+my simple js projects

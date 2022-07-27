@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App </title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./resetcss.css">
+  </head>
+  <body>
+    <div class="app"> 
+      <div class="header"> 
+        <div class="hero"> <img src="./assets/img/hero.png" alt="hero"></div>
+        <div class="project-description">Todo App</div>
+      </div>
+      <div class="boards">
+        <div class="boards__item"> <span class="title" contenteditable="true">Task Board Name </span>
+          <div class="list"></div>
+          <div class="form">
+            <textarea class="textarea" placeholder="Type task"></textarea>
+            <div class="btns"> 
+              <button class="add">Add Task</button>
+              <button class="cancel">Cancel </button>
+            </div>
+          </div>
+          <button class="addTask">+ New Task</button>
+        </div>
+      </div>
+    </div>
+    <script src="./main.dev.js"> </script>
+  </body>
+</html>

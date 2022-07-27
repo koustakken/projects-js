@@ -1,0 +1,114 @@
+body {
+  background-color: #F0F0F2;
+}
+body .app {
+  display: flex;
+  flex-direction: column;
+}
+body .app .header {
+  display: flex;
+  justify-content: center;
+}
+body .app .header .hero img {
+  width: 128px;
+  height: 128px;
+}
+body .app .header .project-description {
+  margin-top: 40px;
+  font-size: 36px;
+}
+body .app .boards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+body .app .boards__item {
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+  width: 300px;
+  background-color: #fff;
+  margin: 0 15px;
+  padding: 20px;
+  transition: 0.9s all ease;
+  border-radius: 10px;
+}
+body .app .boards__item .title {
+  text-align: center;
+  padding: 5px;
+}
+body .app .boards__item .title:focus {
+  background-color: #F0F0F2;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  transition: 0.9s all ease;
+}
+body .app .boards__item .list__item {
+  height: auto;
+  background-color: #F0F0F2;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  margin: 4px 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+body .app .boards__item .form {
+  border-radius: 5px;
+  margin-top: auto;
+  display: none;
+}
+body .app .boards__item .form .textarea {
+  margin-top: 5px;
+  resize: none;
+  min-height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #F0F0F2;
+  padding: 10px;
+  width: 100%;
+}
+body .app .boards__item .form .textarea:focus {
+  background-color: #D0DFF2;
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  transition: 0.9s all ease;
+  height: 100px;
+}
+body .app .boards__item .form .btns {
+  display: flex;
+}
+body .app .boards__item .form .btns .add {
+  display: none;
+  cursor: pointer;
+  background: #4B94F2;
+  border: none;
+  color: #fff;
+  height: 30px;
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+body .app .boards__item .form .btns .cancel {
+  cursor: pointer;
+  background: #F24957;
+  border: none;
+  color: #fff;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+body .app .boards__item .addTask {
+  cursor: pointer;
+  height: 30px;
+  background: #4B94F2;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-align: center;
+  padding-left: 10px;
+  color: #fff;
+  border: none;
+}
