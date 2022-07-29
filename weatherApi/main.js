@@ -1,14 +1,14 @@
-const link = 'https://api.weatherstack.com/current?access_key=340c27b7931680fd87f5f2a69f3d9310'
+const link = 'http://api.weatherstack.com/current?access_key=340c27b7931680fd87f5f2a69f3d9310'
 const root = document.getElementById("root");
 const popup = document.getElementById("popup");
 const textInput = document.getElementById("text-input");
 const form = document.getElementById("form");
 
 let store = {
-  city: "Kurgan",
+  city: "Minsk",
   temperature: 0,
   observationTime: "00:00 AM",
-  isDay: "",
+  isDay: "yes",
   description: "",
   properties: {
     cloudcover: {},
