@@ -1,2 +1,2 @@
 # js-projects
-my simple js projects
+https://koustakken.github.io/projects-js/
