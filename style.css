@@ -40,7 +40,6 @@ h4 {
   font-size: 0.875rem;
 }
 p {
-  margin-bottom: 1.25rem;
   color: grey;
 }
 @media screen and (min-width: 800px) {
@@ -58,6 +57,8 @@ p {
   }
   body {
     font-size: 1rem;
+    background-color: #3685f5;
+    height: 100vh;  
   }
   h1,
   h2,
@@ -68,32 +69,43 @@ p {
 }
 
 .wrapper{
-    display: flex;
-    justify-content: center;
-    padding: 10%;
+  width: 800px;
+  height: 600px;
+  padding: 40px;
+  text-align: center;
+  background: #fff;
+  margin: 50px auto;
+  border-radius: 2%;
 }
-
 .wrapper .side{
-    margin-right: 10%;
+  display: flex;
 }
-
+.wrapper .side .description{
+  text-align: start;
+  font-size: small;
+}
 .wrapper .side img{
-    width: 300px;
+    width: 150px;
+}
+.wrapper .links .list-projects{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 30px;
 }
 
-.wrapper .links{
-    width: 400px;
+.wrapper .links .list-projects .list-item{
+  width: 200px;
+  padding: 5px;
+  background-color: #3685f5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.wrapper .links .list-projects .list-item a{
+  color: #fff;
 }
 
-.wrapper .links .article{
-    background-color: #3685f5;
-    padding: 10px 20px;
-}
-
-.wrapper .links li{
-    background-color: #d5e2f5;
-    padding: 5px;
-}
-.wrapper .links li:hover{
-    background-color: #3685f5;
+.wrapper .links .list-projects .list-item:hover{
+  filter: brightness(95%);
 }
